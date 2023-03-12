@@ -65,7 +65,7 @@ namespace Washme.Identity.Service.Data
                         SlidingRefreshTokenLifetime = 60*15,
 
                         // scopes that client has access to
-                        AllowedScopes = { "AppsScope"}
+                        AllowedScopes = { "AppsScope,offline_access" }
 
                     }
         };
